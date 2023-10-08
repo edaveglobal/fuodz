@@ -3,7 +3,7 @@ import 'package:localize_and_translate/localize_and_translate.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class QrcodeScannerTrait {
+mixin QrcodeScannerTrait {
   //scanning
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
   Barcode? result;
